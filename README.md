@@ -80,7 +80,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-*This project is maintained by [Your Name](https://github.com/your-username). Feel free to reach out for any queries or suggestions.*
+This project is maintained by [Treasure Idem](https://github.com/treasure155/). Feel free to reach out for any queries or suggestions.
 ```
 
 ### Instructions:
