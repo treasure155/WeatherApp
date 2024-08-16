@@ -1,0 +1,231 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden; 
+}
+
+.container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 800px;
+    max-height: 90vh; 
+    overflow-y: auto; 
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+}
+
+button {
+    padding: 10px 20px;
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+#weatherResult {
+    margin-top: 20px;
+    text-align: left;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.weather-icon {
+    width: 50px;
+    height: 50px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    font-size: 0.9em; 
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.weather-item {
+    display: flex;
+    align-items: center;
+}
+
+.weather-item i {
+    margin-right: 10px;
+    font-size: 1.2em;
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    font-size: 0.9em;
+}
+
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.2em;
+    }
+
+    input[type="text"] {
+        width: 100%;
+        font-size: 0.9em;
+    }
+
+    button {
+        width: 100%;
+        padding: 10px;
+        font-size: 0.9em;
+    }
+
+    .weather-item i {
+        font-size: 1em;
+    }
+
+    th, td {
+        padding: 6px;
+        font-size: 0.8em;
+    }
+
+    footer {
+        font-size: 0.8em;
+    }
+}
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+    h1 {
+        font-size: 1.4em;
+    }
+
+    input[type="text"] {
+        width: 90%;
+        font-size: 1em;
+    }
+
+    button {
+        width: 90%;
+        padding: 10px;
+        font-size: 1em;
+    }
+
+    .weather-item i {
+        font-size: 1.1em;
+    }
+
+    th, td {
+        padding: 7px;
+        font-size: 0.85em;
+    }
+
+    footer {
+        font-size: 0.85em;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    h1 {
+        font-size: 1.6em;
+    }
+
+    input[type="text"] {
+        width: 85%;
+        font-size: 1em;
+    }
+
+    button {
+        width: 85%;
+        padding: 10px;
+        font-size: 1em;
+    }
+
+    .weather-item i {
+        font-size: 1.2em;
+    }
+
+    th, td {
+        padding: 8px;
+        font-size: 0.9em;
+    }
+
+    footer {
+        font-size: 0.9em;
+    }
+}
+
+
+@media (min-width: 1025px) {
+    h1 {
+        font-size: 1.8em;
+    }
+
+    input[type="text"] {
+        width: 80%;
+        font-size: 1em;
+    }
+
+    button {
+        width: 80%;
+        padding: 10px;
+        font-size: 1em;
+    }
+
+    .weather-item i {
+        font-size: 1.3em;
+    }
+
+    th, td {
+        padding: 10px;
+        font-size: 1em;
+    }
+
+    footer {
+        font-size: 1em;
+    }
+}
